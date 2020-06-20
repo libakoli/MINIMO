@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+    margin: 0px;
+    padding: 0;
+}
+.header{
+    width: 90%;
+    margin: auto;
+}
+nav {
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img{
+    margin-top: 30px;
+}
+.menu{
+    width: 65%;
+    float: right;
+    margin-left: 10px;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+    margin-top: 30px;
+}
+.menu ul li{
+    float: left;
+} 
+.menu ul li a{
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    color: #626262;
+    font-size: 14px;
+} 
+.banner{
+
+}
+.banner img{
+
+width: 100%;
+}
+.contant{
+
+width: 80%;
+
+margin: auto;
+}
+.photodairy{
+    padding-top: 90px;
+}
+.photodairy h6, .lifestyle_1 h6, .lifestyle_2 h6, .photodairy_1 h6, .photodairy_2 h6{
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 30px 0px;
+}
+.photodairy h1, .lifestyle_1 h1, .lifestyle_2 h1, .photodairy_1 h1, .photodairy_2 h1, .news-contant h1{
+    color: #626262;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family:'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+.photodairy p, .lifestyle_1 p, .lifestyle_2 p, .photodairy_1 p, .photodairy_2 p{
+    color: #626262;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    margin: 20px 0px;
+}
+.lifestyle{
+    overflow: hidden;
+}
+.lifestyle_1{
+    width: 47%;
+    float: left;
+}
+.lifestyle_1 img{
+    width: 100%;
+}
+.lifestyle_2{
+    width: 47%;
+    float: right;
+}
+.lifestyle_2 img{
+    width: 100%;
+}
+.photodairy_below{
+    overflow: hidden;
+    padding-top: 100px;
+}
+.photodairy_1 {
+    width: 47%;
+    float: left;
+}
+.photodairy_1 img{
+    width: 100%;
+}
+.photodairy_2{
+    width: 47%;
+    float: right;
+}
+.photodairy_2 img{
+    width: 100%;
+}
+.newsletter {
+    background: #f0f0f0;
+    margin: 60px 0;
+}
+.news-contant{
+    width: 30%;
+    margin: auto;
+    padding: 100px 0px;
+    position: relative;
+}
+.news-contant h1{
+
+margin-bottom: 60px;
+}
+.news-contant input{
+    border: none;
+    border-bottom: 1px solid;
+    background: transparent;
+    width: 100%;
+    outline: none;
+}
+.news-contant input::placeholder{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+.icon{
+    
+position: absolute;
+    
+top: 45%;
+    
+right: 0;
+    
+transform: translateY(45px);
+}
+.load-more{
+    text-align: center;
+    margin: 100px 0px;
+}
+.load-more input{
+    padding: 20px 30px;
+    border: 1px solid;
+    background: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+footer{
+    background: #f0f0f0;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.footer-contant{}
+.terms{
+    width: 30%;
+    float: left;
+}
+.terms ul{
+    list-style: none;
+}
+.terms ul li{
+    float: left;
+} 
+.terms ul li a{
+    text-decoration: none;
+    color: #626262;
+    margin-right: 15px;
+}
+.social-icon{ 
+    width: 40%;
+    float: right;
+}
+.social-icon ul{
+    list-style: none;
+    float: right;
+}
+.social-icon ul li{
+    float: left;
+} 
+.social-icon ul li a{
+    text-decoration: none;
+    color: #626262;
+    margin-left: 25px;
+} 
+/*
+.social-icon ul li a i{
+    line-height: 50px;
+}
+
+*/
